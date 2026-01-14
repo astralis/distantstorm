@@ -70,6 +70,11 @@ nav { margin-top: 1.5rem; font-family: var(--font-mono); font-size: 0.8rem; lett
     max-width: 900px; margin: 0 auto;
     font-family: var(--font-mono); font-size: 1.25rem; line-height: 1.8; color: #222; text-align: justify;
 }
+/* Ensure lists are visible and styled */
+.essay-body ul { list-style-type: disc; margin: 2rem 0; padding-left: 2rem; }
+.essay-body ol { list-style-type: decimal; margin: 2rem 0; padding-left: 2rem; }
+.essay-body li { margin-bottom: 0.5rem; }
+
 .essay-body > p:first-of-type::first-letter {
     float: left; font-family: var(--font-serif); font-weight: 900;
     font-size: 6rem; line-height: 0.8; padding: 0.6rem 0.6rem 0 0; margin-right: 0.5rem;
